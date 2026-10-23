@@ -48,6 +48,9 @@
     font-family:var(--logo);font-weight:700;letter-spacing:.13em;
     font-size:1rem;color:#fff;
   }
+  .logo-img{height:34px;width:auto;display:block;filter:brightness(0) invert(1);transition:filter .4s ease}
+  header.scrolled .logo-img{filter:none}
+  footer .logo-img{height:40px;filter:brightness(0) invert(1)}
   .logo--sm .waves{width:40px}
   .logo--sm .word{font-size:.82rem;letter-spacing:.12em}
 
@@ -168,7 +171,6 @@
   td.ic img{width:110px;height:auto;display:block;mix-blend-mode:multiply}
   td.sp{font-family:var(--display);font-size:1.25rem;color:var(--navy)}
   td.lat{font-style:italic;color:var(--muted);font-size:.9rem}
-  .spec-note{margin-top:34px;color:var(--muted);max-width:60ch}
   .spec-foot{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap;margin-top:10px}
   .specs .btn.btn--blue{background:var(--blue);color:#fff;margin-top:26px}
   .hero .btn{margin-top:36px}
@@ -224,12 +226,7 @@
 <header id="hdr">
   <div class="wrap nav">
     <a href="#" class="logo logo--sm" aria-label="Þorbjörn">
-      <svg class="waves" viewBox="0 0 100 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M7 16 C 19 6 35 6 50 16 C 65 26 81 26 93 16" stroke="#1f6cb0" stroke-width="11" stroke-linecap="round"/>
-        <path d="M7 32 C 19 22 35 22 50 32 C 65 42 81 42 93 32" stroke="#1f6cb0" stroke-width="11" stroke-linecap="round"/>
-        <path d="M7 48 C 19 38 35 38 50 48 C 65 58 81 58 93 48" stroke="#1f6cb0" stroke-width="11" stroke-linecap="round"/>
-      </svg>
-      <span class="word">ÞORBJÖRN</span>
+      <img src="Logos/thorbjorn-logo.png" alt="Þorbjörn" class="logo-img">
     </a>
     <nav class="nav-links">
       <a href="#products">Our products</a>
@@ -376,7 +373,6 @@
         </tbody>
       </table>
     </div>
-    <p class="spec-note reveal">Contact our sales team for current availability, product specifications, size grades and packing options.</p>
     <a href="#contact" class="btn btn--blue reveal">Contact our sales team</a>
   </div>
 </section>
@@ -399,12 +395,7 @@
     <div class="foot-top">
       <div>
         <a href="#" class="logo" style="align-items:flex-start">
-          <svg class="waves" viewBox="0 0 100 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M7 16 C 19 6 35 6 50 16 C 65 26 81 26 93 16" stroke="#2f86ce" stroke-width="11" stroke-linecap="round"/>
-            <path d="M7 32 C 19 22 35 22 50 32 C 65 42 81 42 93 32" stroke="#2f86ce" stroke-width="11" stroke-linecap="round"/>
-            <path d="M7 48 C 19 38 35 38 50 48 C 65 58 81 58 93 48" stroke="#2f86ce" stroke-width="11" stroke-linecap="round"/>
-          </svg>
-          <span class="word">ÞORBJÖRN</span>
+          <img src="Logos/thorbjorn-logo.png" alt="Þorbjörn" class="logo-img">
         </a>
         <p style="margin-top:20px;max-width:32ch;color:rgba(255,255,255,.6)">Icelandic seafood. A tradition carried forward.</p>
       </div>
